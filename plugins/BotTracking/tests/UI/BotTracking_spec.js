@@ -20,6 +20,14 @@ describe("BotTracking", function () {
         testEnvironment.save();
     });
 
+      it('should render AI Assistants > Overview page with evolution and sparkline', async function () {
+          await page.goto("?" + urlBase + "#?" + generalParams + "&category=AIAgents_AIAssistants&subcategory=BotTracking_Overview");
+          await page.waitForNetworkIdle();
+
+          var elem = await page.$('.pageWrap');
+          expect(await elem.screenshot()).to.matchImage('bot_overview');
+      });
+
     it('should render AI Assistants > Overview bot detail report', async function () {
         await page.goto("?" + urlBase + "#?" + generalParams + "&category=AIAgents_AIAssistants&subcategory=General_Overview");
         await page.waitForNetworkIdle();
