@@ -6731,6 +6731,83 @@
 		</subcategory>
 		<widgets>
 			<row>
+				<name />
+				<module>CoreHome</module>
+				<action>renderWidgetContainer</action>
+				<order>10</order>
+				<parameters>
+					<module>CoreHome</module>
+					<action>renderWidgetContainer</action>
+					<containerId>AIAgents_AIAssistants</containerId>
+				</parameters>
+				<uniqueId>widgetAIAgents_AIAssistants</uniqueId>
+				<isWide>1</isWide>
+				<layout />
+				<isContainer>1</isContainer>
+				<widgets>
+					<row>
+						<name>AI Assistants - Bots Over Time</name>
+						<category>
+							<id>AIAgents_AIAssistants</id>
+							<name>AI Assistants</name>
+							<order>99</order>
+							<icon />
+							<help />
+							<widget />
+						</category>
+						<subcategory>
+							<id>General_Overview</id>
+							<name>Overview</name>
+							<order>99</order>
+							<help />
+						</subcategory>
+						<module>BotTracking</module>
+						<action>getEvolutionGraph</action>
+						<order>1</order>
+						<parameters>
+							<forceView>1</forceView>
+							<viewDataTable>graphEvolution</viewDataTable>
+							<module>BotTracking</module>
+							<action>getEvolutionGraph</action>
+						</parameters>
+						<uniqueId>widgetBotTrackinggetEvolutionGraphforceView1viewDataTablegraphEvolution</uniqueId>
+						<isWide>0</isWide>
+						<viewDataTable>graphEvolution</viewDataTable>
+						<isReport>1</isReport>
+					</row>
+					<row>
+						<name>AI Assistants - Bots Overview</name>
+						<category>
+							<id>AIAgents_AIAssistants</id>
+							<name>AI Assistants</name>
+							<order>99</order>
+							<icon />
+							<help />
+							<widget />
+						</category>
+						<subcategory>
+							<id>General_Overview</id>
+							<name>Overview</name>
+							<order>99</order>
+							<help />
+						</subcategory>
+						<module>BotTracking</module>
+						<action>get</action>
+						<order>2</order>
+						<parameters>
+							<forceView>1</forceView>
+							<viewDataTable>sparklines</viewDataTable>
+							<module>BotTracking</module>
+							<action>get</action>
+						</parameters>
+						<uniqueId>widgetBotTrackinggetforceView1viewDataTablesparklines</uniqueId>
+						<isWide>0</isWide>
+						<viewDataTable>sparklines</viewDataTable>
+						<isReport>1</isReport>
+					</row>
+				</widgets>
+			</row>
+			<row>
 				<name>AI Assistants - Bots</name>
 				<module>BotTracking</module>
 				<action>getAIAssistantRequests</action>
@@ -6745,36 +6822,81 @@
 				<isReport>1</isReport>
 			</row>
 			<row>
-				<name>AI Agents Over Time</name>
-				<module>AIAgents</module>
-				<action>getEvolutionGraph</action>
+				<name />
+				<module>CoreHome</module>
+				<action>renderWidgetContainer</action>
 				<order>90</order>
 				<parameters>
-					<forceView>1</forceView>
-					<viewDataTable>graphEvolution</viewDataTable>
-					<module>AIAgents</module>
-					<action>getEvolutionGraph</action>
+					<module>CoreHome</module>
+					<action>renderWidgetContainer</action>
+					<containerId>AIAgents_AIAgentVisits</containerId>
 				</parameters>
-				<uniqueId>widgetAIAgentsgetEvolutionGraphforceView1viewDataTablegraphEvolution</uniqueId>
-				<isWide>0</isWide>
-				<viewDataTable>graphEvolution</viewDataTable>
-				<isReport>1</isReport>
-			</row>
-			<row>
-				<name>AI Agent Overview</name>
-				<module>AIAgents</module>
-				<action>get</action>
-				<order>91</order>
-				<parameters>
-					<forceView>1</forceView>
-					<viewDataTable>sparklines</viewDataTable>
-					<module>AIAgents</module>
-					<action>get</action>
-				</parameters>
-				<uniqueId>widgetAIAgentsgetforceView1viewDataTablesparklines</uniqueId>
-				<isWide>0</isWide>
-				<viewDataTable>sparklines</viewDataTable>
-				<isReport>1</isReport>
+				<uniqueId>widgetAIAgents_AIAgentVisits</uniqueId>
+				<isWide>1</isWide>
+				<layout />
+				<isContainer>1</isContainer>
+				<widgets>
+					<row>
+						<name>AI Agents Over Time</name>
+						<category>
+							<id>AIAgents_AIAssistants</id>
+							<name>AI Assistants</name>
+							<order>99</order>
+							<icon />
+							<help />
+							<widget />
+						</category>
+						<subcategory>
+							<id>General_Overview</id>
+							<name>Overview</name>
+							<order>99</order>
+							<help />
+						</subcategory>
+						<module>AIAgents</module>
+						<action>getEvolutionGraph</action>
+						<order>1</order>
+						<parameters>
+							<forceView>1</forceView>
+							<viewDataTable>graphEvolution</viewDataTable>
+							<module>AIAgents</module>
+							<action>getEvolutionGraph</action>
+						</parameters>
+						<uniqueId>widgetAIAgentsgetEvolutionGraphforceView1viewDataTablegraphEvolution</uniqueId>
+						<isWide>0</isWide>
+						<viewDataTable>graphEvolution</viewDataTable>
+						<isReport>1</isReport>
+					</row>
+					<row>
+						<name>AI Agent Overview</name>
+						<category>
+							<id>AIAgents_AIAssistants</id>
+							<name>AI Assistants</name>
+							<order>99</order>
+							<icon />
+							<help />
+							<widget />
+						</category>
+						<subcategory>
+							<id>General_Overview</id>
+							<name>Overview</name>
+							<order>99</order>
+							<help />
+						</subcategory>
+						<module>AIAgents</module>
+						<action>get</action>
+						<order>2</order>
+						<parameters>
+							<forceView>1</forceView>
+							<viewDataTable>sparklines</viewDataTable>
+							<module>AIAgents</module>
+							<action>get</action>
+						</parameters>
+						<uniqueId>widgetAIAgentsgetforceView1viewDataTablesparklines</uniqueId>
+						<isWide>0</isWide>
+						<viewDataTable>sparklines</viewDataTable>
+						<isReport>1</isReport>
+					</row>
+				</widgets>
 			</row>
 		</widgets>
 	</row>
