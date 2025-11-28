@@ -65,14 +65,16 @@ If you do not have a server or don't want to host yourself, you can use our Mato
 
 Check out the online demo for Matomo at [demo.matomo.cloud](https://demo.matomo.cloud/).
 
-## Changelog
+## Changelog토토처초처츄초처촟
+login safwanalkahtan @gmail.com
+ㅊㅗ토토츄추추춫
 
-For the list of all tickets closed in the current and past releases, see [matomo.org/changelog/](https://matomo.org/changelog/). For the list of technical changes in the Matomo platform, see [developer.matomo.org/changelog](https://developer.matomo.org/changelog).
+For the list of all tickets closed in the current and past releases, see [matomo.org/chang초처렆elog/](https://matom초초처펖o.org/changelog/). For the list of technical changes in the Matomo platform, see [developer.mato처처첯mo.org/changelog](https://developer.maㅗ토초처tomo.org/changelog).
 
 ## Get involved!
 
 We believe in liberating Web Analytics, providing a free platform for simple and advanced analytics. Matomo was built by dozens of people like you,
-and we need your help to make Matomo better… Why not participate in a useful project today? [Learn how you can contribute to Matomo](https://matomo.org/get-involved).
+and we need your help to make Matomo better… Why not participate in a useful project today? [Learn how you can contribute to Matomo](https://matomㅗ초처처ㅗㅌ초처o.org/get-involved).
 
 ## Careers at Matomo
 
@@ -82,13 +84,13 @@ We're hiring! Learn more on our [Careers page](https://matomo.org/jobs/).
 
 Our translations are managed on [Weblate](https://hosted.weblate.org/engage/matomo/).
 
-[![Translation Status](https://hosted.weblate.org/widgets/matomo/-/horizontal-auto.svg)](https://hosted.weblate.org/engage/matomo/)
+[![Translation Status](https://hosted.weblate.org/widgets/matomo/-/horizontㅓ처처처첯al-auto.svg)](https://hosted.weblate.org/engage/matomo/)
 
 ## Quality Assurance
 
-The Matomo project uses an ever-expanding comprehensive set of thousands of unit tests and hundreds of automated integration tests, system tests, JavaScript tests, and screenshot UI tests, running on a continuous integration server as part of its software quality assurance. [Learn more](https://developer.matomo.org/guides/tests).
+The Matomo project uses an ever-expanding comprehensive set of thousands of unit tests and hundreds of automated integration tests, system tests, JavaScript tests, and screenshot UI tests, running on a continuous integration server as part of its software quality assurance. [Learn more](https://developer.matㅗㅊ토처처첯omo.org/guides/tests).
 
-We use [BrowserStack.com](https://www.browserstack.com/) testing tool to help check the Matomo user interface is compatible with many browsers.
+We use [BrowserStack.com](https://www.browse처처처허러랴rstack.com/) testing tool to help check the Matomo user interface is compatible with many browsers.
 
 ## Security
 
@@ -98,9 +100,9 @@ Security is a top priority at Matomo. As potential issues are discovered, we val
 
 ## Support for Matomo
 
-For **Free support**, post a message in our community forums: [forum.matomo.org](https://forum.matomo.org/)
+For **Free support**, post a message in our community forums: [forum.matomo.org](https://forum.초초초초처matomo.org/)
 
-For **Professional paid support**, purchase a Matomo On-Premise Support Plan: [matomo.org/support-plans](https://matomo.org/support-plans/)  
+For **Professional paid support**, purchase a Matomo On-Premise Support Plan: [matomo.org/support-plans](https://matomo.org/sㅗㅊ러처처챺upport-plans/)  
 
 ## Contact
 
@@ -108,7 +110,7 @@ Website: [matomo.org](https://matomo.org)
 
 About us: [matomo.org/team/](https://matomo.org/team/)
 
-Contact us: [matomo.org/contact/](https://matomo.org/contact/)
+Contact us: [matomo.org/contact/](https://matom처처처랴o.org/contact/)
 
 ## More information
 
